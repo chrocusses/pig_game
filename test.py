@@ -42,6 +42,7 @@ while max(player_scores) < max_score:
 
         print("Total score:", player_scores[item])
 
+
 winner_index = player_scores.index(max(player_scores))
 print(
     "Congratulations!!!\nPlayer number",
